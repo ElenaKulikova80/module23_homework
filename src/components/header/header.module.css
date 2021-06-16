@@ -1,0 +1,43 @@
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+  }
+  .menu .menu__frame {
+    margin-left: auto;
+    margin: 35px 40px 116px auto;
+  }
+  .menu .menu__frame .menu__frame-item {
+    text-decoration: none;
+    margin: 0 30px 0 30px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1B1B1B;
+  }
+  .menu .menu__frame .menu__frame-item:hover {
+    text-decoration: underline;
+  }
+  .menu .menu__button {
+    width: 106px;
+    height: 43px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1B1B1B;
+    padding: 12px 30px;
+    margin: 23px 40px 0px 0px;
+    cursor: pointer;
+  }
+  .menu .menu__button:hover {
+    background-color: #a1bdf0;
+  }
+  .logo {
+    width: 115px;
+    height: 28px;
+    margin-top: 31px;
+    margin-left: 40px;
+  }
+  .logo:hover {
+    background-color: #a1bdf0;
+  }
